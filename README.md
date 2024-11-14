@@ -3,6 +3,8 @@
 ## Project Overview
 This project presents a comprehensive Sales Analysis Dashboard for an e-commerce business specializing in occasion-based gifting. The dashboard provides insights into sales performance, customer behavior, and product popularity to support data-driven decision-making for optimizing sales strategies and enhancing the customer experience.
 
+![FNP Dashboard](Dashboard_View.png)
+
 The dashboard is designed with an intuitive layout and includes interactive charts and Key Performance Indicators (KPIs) that allow stakeholders to monitor sales trends and identify key revenue drivers.
 
 ## Data Overview
@@ -60,4 +62,69 @@ This dashboard offers insights beneficial for various teams:
 ## Key Findings
 - **Correlation Between Order Quantity and Delivery Time**: The correlation coefficient between order quantity and delivery time was found to be 0.0035. This low correlation suggests that order quantity has minimal impact on delivery time, indicating that the logistics process remains efficient regardless of order volume.
 
---- 
+# FNP Dataset for Sales and Customer Analysis
+
+This repository contains a dataset used for analyzing sales and customer behavior in an occasion-based e-commerce business. The data focuses on various customer interactions, order details, and product information, which can be used to derive insights about sales performance, customer demographics, and product popularity.
+
+## Dataset Overview
+
+The FNP dataset includes the following files:
+
+### 1. `customers.csv`
+Contains information about the customers, including their demographic and contact information.
+
+- **Columns**:
+  - `Customer_ID`: Unique identifier for each customer.
+  - `Name`: Customer's name.
+  - `City`: City of residence.
+  - `Contact_Number`: Customer's contact number.
+  - `Email`: Customer's email address.
+  - `Gender`: Gender of the customer.
+  - `Address`: Full address of the customer.
+
+### 2. `orders.csv`
+Provides details of each order placed, including order timing, delivery information, and location.
+
+- **Columns**:
+  - `Order_ID`: Unique identifier for each order.
+  - `Customer_ID`: ID linking each order to a customer.
+  - `Product_ID`: ID of the ordered product.
+  - `Quantity`: Quantity of items ordered.
+  - `Order_Date`: Date when the order was placed.
+  - `Order_Time`: Time when the order was placed.
+  - `Delivery_Date`: Date of delivery.
+  - `Delivery_Time`: Time of delivery.
+  - `Location`: Location where the order was delivered.
+  - `Occasion`: Occasion associated with the order, e.g., Birthday, Anniversary, Diwali.
+
+### 3. `products.csv`
+Contains information on the products available, their categories, and pricing.
+
+- **Columns**:
+  - `Product_ID`: Unique identifier for each product.
+  - `Product_Name`: Name of the product.
+  - `Category`: Product category (e.g., Cake, Plants, Mugs, Soft Toys).
+  - `Price (INR)`: Price of the product in Indian Rupees.
+  - `Occasion`: Occasion for which the product is typically purchased.
+
+## Potential Use Cases
+
+This dataset can support various analyses, such as:
+
+1. **Customer Demographics**: Explore customer locations, average spending, and buying preferences.
+2. **Sales Performance**: Track order volume, revenue, and trends across different occasions.
+3. **Product Analysis**: Identify top-selling products, revenue drivers by category, and popular occasions.
+4. **Logistics and Delivery**: Analyze average order-to-delivery times and geographic distribution of deliveries.
+
+## Key Metrics and Insights
+
+The data can help derive several key metrics and insights, including:
+
+- **Total Orders**: Total number of orders placed.
+- **Total Revenue**: Aggregate revenue generated.
+- **Order-to-Delivery Time**: Average time from order placement to delivery.
+- **Top Products**: Products generating the highest revenue.
+- **Top Occasions by Revenue**: Occasions contributing the most to overall sales.
+
+You can download the dataset here: [FNP_Dataset](FNP_Dataset)
+
