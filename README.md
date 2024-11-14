@@ -54,11 +54,6 @@ This dashboard offers insights beneficial for various teams:
 - **Operations**: Monitors order-to-delivery times to improve logistics processes.
 - **Product Development**: Provides data on popular categories and products, guiding product innovation and inventory management.
 
-## Technologies Used
-- **Data Source**: Sales data from an e-commerce platform or internal sales database.
-- **Data Visualization Tool**: Tableau (or similar tools) for interactive and dynamic visualizations.
-- **Data Processing**: SQL or Python for data cleaning and transformation before visualization.
-
 ## Key Findings
 - **Correlation Between Order Quantity and Delivery Time**: The correlation coefficient between order quantity and delivery time was found to be 0.0035. This low correlation suggests that order quantity has minimal impact on delivery time, indicating that the logistics process remains efficient regardless of order volume.
 
